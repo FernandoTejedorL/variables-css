@@ -1,3 +1,9 @@
+:root {
+  --bg-color: green;
+  --box-width: 100px;
+  --box-height: 100px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,4 +32,11 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: var(--bg-color);
+}
+
+.box {
+  width: var(--box-width);
+  height: var(--box-height);
+  background-color: blueviolet;
 }
